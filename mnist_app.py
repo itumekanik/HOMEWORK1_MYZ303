@@ -100,8 +100,8 @@ def predict_digit(model, img_tensor, device):
 def main():
     parser = argparse.ArgumentParser(description='MNIST Digit Recognition')
     parser.add_argument('image', type=str, help='Path to input image file')
-    parser.add_argument('--model', type=str, default='models/mnist_ann_model.pth', 
-                        help='Path to trained model file (default: models/mnist_ann_model.pth)')
+    parser.add_argument('--model', type=str, default='mnist_ann_model.pth', 
+                        help='Path to trained model file (default: mnist_ann_model.pth)')
     parser.add_argument('--verbose', '-v', action='store_true', 
                         help='Show detailed output with confidence score')
     

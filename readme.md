@@ -39,8 +39,8 @@ All required packages are listed in the `environment.yml` file. The main depende
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/mnist-pytorch-classification.git
-   cd mnist-pytorch-classification
+   git clone https://github.com/itumekanik/HOMEWORK1_MYZ303.git
+   cd HOMEWORK1_MYZ303
    ```
 
 2. Create the Conda environment:
@@ -54,6 +54,33 @@ All required packages are listed in the `environment.yml` file. The main depende
    ```
 
 ## Usage
+
+### Run the Model (For custom picture identification)
+
+Run the main script to train the model:
+
+```bash
+python mnist_app.py images/3_1.png
+```
+
+You shouls see the following output in the console.
+```cmd
+(mnist-pytorch) C:\Users\murat\OneDrive\Desktop\HOMEWORK1_MYZ303>python mnist_app.py images/3_1.png
+Evaluation Statistics for 10 Categories:
+Digit 0: 0.00%
+Digit 1: 0.89%
+Digit 2: 15.43%
+Digit 3: 62.74%
+Digit 4: 1.14%
+Digit 5: 1.85%
+Digit 6: 0.00%
+Digit 7: 12.96%
+Digit 8: 2.62%
+Digit 9: 2.37%
+
+Predicted digit: 3 (Confidence: 62.74%)
+
+```
 
 ### Training the Model
 
