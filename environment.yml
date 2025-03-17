@@ -1,0 +1,21 @@
+name: mnist-pytorch
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - cpuonly  # Remove this and add cudatoolkit if using GPU
+  # - cudatoolkit  # Uncomment this if using CUDA
+  - matplotlib
+  - numpy
+  - pillow
+  - tqdm
+  - ipython
+  - jupyter
+  - scikit-learn
+  - pip:
+    - tensorboard 
